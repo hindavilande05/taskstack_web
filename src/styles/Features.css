@@ -1,0 +1,16 @@
+.features {
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+  justify-content: center;
+  }
+  
+  .features-image {
+    width: 100%;
+    max-width: 1200px;
+  }
+  

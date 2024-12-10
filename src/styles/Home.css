@@ -1,0 +1,113 @@
+.home {
+    min-height: 90vh;
+    background: url("../assets/bg.png");
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap; /* Allows the layout to wrap for smaller screens */
+    height: 100%;
+    min-height: 80vh;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1; /* Ensures proper sizing in the flex layout */
+    padding: 1rem;
+  }
+  
+  .androidInterface {
+    display: flex;
+    justify-content: center;
+    flex: 1; /* Ensures the image takes up its share of space */
+    padding: 1rem;
+  }
+  
+  .hero-content h1 {
+    font-family: poppins;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .hero-content .highlight {
+    color: #ff007a;
+  }
+  
+  .hero-content p {
+    font-family: poppins;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #cccccc;
+  }
+  
+  .taskstack-button {
+    font-family: poppins;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 75%;
+    color: #ffffff;
+    background: linear-gradient(145deg, #ff007a, #ff52ab);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+  }
+  
+  .taskstack-button:hover {
+    background: linear-gradient(145deg, #b21d6a, #5e0731);
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-content {
+      flex-direction: column; /* Stacks the content vertically */
+      text-align: center;
+    }
+  
+    .androidInterface {
+      margin-top: 2rem; /* Adds spacing below the text */
+    }
+  
+    .hero-image {
+      max-height: 60vh; /* Ensures the image is still visible without being too large */
+      max-width: 80%; /* Limits image size on small screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-content h1 {
+      font-size: 3rem; /* Slightly reduces the font size for very small screens */
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  
+    .taskstack-button {
+      width: 90%; /* Ensures the button scales properly */
+    }
+  
+    .hero-image {
+      max-height: 50vh;
+      max-width: 100%;
+    }
+  }
+  
