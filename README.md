@@ -18,6 +18,11 @@ TaskStack is an Android app designed to help users efficiently track and manage 
 ![TaskStack Task View](/src/assets/3.png)
 *Task detail view with options to edit or mark as completed*
 
+
+## Original Source Code Repository for TaskStak
+
+- https://github.com/atharva030/Neons
+
 ## Installation
 
 To install TaskStack on your Android device, follow these steps:
