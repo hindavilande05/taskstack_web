@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# TaskStack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TaskStack is an Android app designed to help users efficiently track and manage their tasks and assignments. It provides a simple, intuitive interface to organize work and stay productive. Whether you're an individual or part of a small organization, TaskStack helps you keep track of your tasks, deadlines, and projects in a streamlined manner.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Task Creation**: Add, edit, and delete tasks with deadlines.
+- **Task Categories**: Organize tasks by category for easy management.
+- **Progress Tracking**: Mark tasks as completed and track progress.
+- **Notifications**: Get timely reminders about upcoming deadlines.
+- **User-Friendly Interface**: A clean, minimalistic design that makes task management simple.
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![TaskStack app](/src/assets/hero1.png)
+*App Interface*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![TaskStack Task View](/src/assets/3.png)
+*Task detail view with options to edit or mark as completed*
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install TaskStack on your Android device, follow these steps:
 
-### `npm run build`
+1. **Download the APK**: [Download TaskStack APK](/src/apk/taskstakApk.apk)
+2. **Enable Unknown Sources**: Go to your phone settings and enable installation from unknown sources if it's not enabled already.
+3. **Install APK**: Open the downloaded APK file and tap 'Install'.
+4. **Open the App**: Once installed, open TaskStack and start managing your tasks.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Create a Task**: Tap on the 'Add Task' button, fill in the task details like title, description, and deadline.
+2. **View Tasks**: View your tasks in a simple list or as detailed cards.
+3. **Track Progress**: Mark tasks as complete or update them when needed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **Technology**: React-Native, Express.js
+- **Database**: MongoDB
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We welcome contributions to TaskStack! To contribute:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork the repository
+2. Create a new branch for your feature
+3. Commit your changes
+4. Open a pull request with a description of your changes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For any questions or support, feel free to reach out to me.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
