@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <a href="https://github.com/atharva030/Neons" className="github-link">
+        <a href="https://github.com/hindavilande05/taskstack_web" className="github-link">
         <h1>For Source code, visit my  
           <span className="highlight">
             GitHub Repo 
