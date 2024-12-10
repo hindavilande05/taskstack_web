@@ -21,6 +21,8 @@ TaskStack is an Android app designed to help users efficiently track and manage 
 
 ## Original Source Code Repository for TaskStak
 
+- **I have contributed in this project with my teammate. original repository is given below.
+
 - https://github.com/atharva030/Neons
 
 ## Installation
